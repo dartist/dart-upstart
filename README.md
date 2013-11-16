@@ -16,9 +16,9 @@ There's also [mod\_dart](https://github.com/sam-mccall/mod_dart) for hosting in 
 
 * Download and unzip [Dart SDK](http://storage.googleapis.com/dart-archive/channels/stable/release/latest/editor/darteditor-linux-x64.zip):
 
-wget http://storage.googleapis.com/dart-archive/channels/stable/release/latest/editor/darteditor-linux-x64.zip
-unzip darteditor-linux-x64.zip
-cp dart/dart-sdk/bin/dart /usr/bin
+    wget http://storage.googleapis.com/dart-archive/channels/stable/release/latest/editor/darteditor-linux-x64.zip
+    unzip darteditor-linux-x64.zip
+    cp dart/dart-sdk/bin/dart /usr/bin
 
 * Install [Upstart](http://upstart.ubuntu.com), if necessary
 
@@ -26,7 +26,7 @@ cp dart/dart-sdk/bin/dart /usr/bin
 
 * To start the service now:
 
-start my-server
+    start my-server
 
 That's it!
 
