@@ -7,9 +7,9 @@ dart-upstart
 
 [Dart](https://www.dartlang.org) supports server-side development. See for instance [HttpServer](http://api.dartlang.org/docs/channels/stable/latest/dart_io/HttpServer.html).
 
-Creating an [Upstart](http://upstart.ubuntu.com) config is an easy and lightweight way to spawn your server-side Dart app. It'll also respawn if necessary, e.g. in case of an uncaught exception.
+Using an [Upstart](http://upstart.ubuntu.com) config is an easy and lightweight way to spawn your server-side Dart app. It'll also respawn if necessary, e.g. in case of an uncaught exception.
 
-There's also [mod\_dart](https://github.com/sam-mccall/mod_dart) for hosting in Apache.
+If you prefer to host in Apache, have a look at [mod\_dart](https://github.com/sam-mccall/mod_dart).
 
 
 ### Setup instructions
