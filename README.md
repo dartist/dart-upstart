@@ -35,9 +35,14 @@ start my-server
 ```
 That's it!
 
-### Acknowledgment
+### Next steps
 
-Thanks to [Guy](http://stackoverflow.com/users/41576/guy) for answering my [question](http://stackoverflow.com/questions/19896836) on Stack Overflow!
+* Logging
+
+
+### Contributors
+  - [MaxHorstmann](https://github.com/MaxHorstmann) (Max Horstmann)
+  - Thanks to [Guy](http://stackoverflow.com/users/41576/guy) for answering [this](http://stackoverflow.com/questions/19896836) question on Stack Overflow!
 
 
 
