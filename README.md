@@ -37,7 +37,7 @@ That's it!
 
 ### Next steps
 
-* Logging
+* Logging: right now just appending to log file in /var/log, should use something better such as syslog.
 
 
 ### Contributors
