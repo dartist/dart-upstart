@@ -1,7 +1,10 @@
 dart-upstart
 ============
 
-[Upstart](http://upstart.ubuntu.com) configuration file (my-server.conf) and setup instructions (below) for spawning a Dart server.
+[Upstart](http://upstart.ubuntu.com) configuration file (my-server.conf) and setup instructions (below) for spawning a Dart server, and a web hook for a simple continuous deployment (CI) setup.
+
+Here's a blog post with more details: [Dart + CI with a few lines of code](http://maxhorstmann.net/blog/2014/04/12/dart-ci-with-a-few-lines-of-code)
+
 
 ### Why? 
 
@@ -34,6 +37,8 @@ cp dart/dart-sdk/bin/dart /usr/bin
 start my-server
 ```
 That's it!
+
+Optionally, create a deployment script and [set up a web hook](http://maxhorstmann.net/blog/2014/04/12/dart-ci-with-a-few-lines-of-code) for continuous deployment.
 
 ### Next steps
 
